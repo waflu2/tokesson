@@ -9,16 +9,20 @@ body {
 }
 .misson-name{
     position: relative;
-    left: 595px;
-    top: -275px;
+ 	/* 가로축 가운데 정렬 */
+    text-align : center;
+    /* 세로축 가운데 정렬 */
+    line-height : center;
     font-family: 'Do Hyeon', sans-serif;
     font-size: 64px;
 }
 .misson-list{
     position: relative;
     font-family: 'Do Hyeon', sans-serif;
-    top: -255px;
-    left: 655px;
+    /* 가로축 가운데 정렬 */
+    text-align : center;
+    /* 세로축 가운데 정렬 */
+    line-height : center;
     font-size: 44px;
 }
 .myButton {
